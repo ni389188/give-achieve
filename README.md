@@ -1,4 +1,4 @@
-## Give Achieve
+## Share My Help
 
 This project connects people willing to help others with those that need this help.
 The application works by rewarding helpers with points that they can use to 
