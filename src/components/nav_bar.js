@@ -16,7 +16,6 @@ function NavBar() {
                 </Navbar.Brand>
             </div>
             <Container fluid>
-                <Navbar.Brand href="#">Share My Help</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
