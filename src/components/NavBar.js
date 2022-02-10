@@ -13,7 +13,7 @@ function NavBar() {
                 <img src={logo} className="nav-logo" alt="Nav bar logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse className="button-links">
+            <Navbar.Collapse>
                 <Nav className="nav-links">
                     <Button variant="light" href="/" className="button-links">
                         Home
