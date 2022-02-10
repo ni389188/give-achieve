@@ -1,19 +1,30 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: content-box;
 }
 
-.nav-logo {
-    margin-left : 20px;
-    width : 50px;
+.navbar {
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
-.button-links {
+.nav-logo {
+    width: 50px;
+}
+
+.nav-links {
     margin-left: 5px;
+    margin-right: 5px;
 }
 
 .login-button {
-    margin-right : 25px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
+
+
 
 
 
