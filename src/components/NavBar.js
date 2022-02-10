@@ -10,17 +10,17 @@ function NavBar() {
     return (
         <Navbar sticky="top" bg="dark" variant="dark" expand="lg" className='navbar'>
             <Navbar.Brand>
-                <img src={logo} className="nav-logo" alt="Nav bar logo" />
+                <img src={logo} className="navbar--logo" alt="Nav bar logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse>
-                <Nav className="nav-links">
-                    <Button variant="light" href="/" className="button-links">
+                <Nav className="navbar--links">
+                    <Button variant="light" href="/" className="navbar--home">
                         Home
                     </Button>
                 </Nav>
                 <Nav className="ms-auto">
-                    <Button variant="primary" href="/login" className="login-button">
+                    <Button variant="primary" href="/login" className="navbar--login">
                         Login
                     </Button>
                 </Nav>
