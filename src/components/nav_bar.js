@@ -8,7 +8,7 @@ import './nav-bar.css';
 
 function NavBar() {
     return (
-        <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
+        <Navbar sticky="top" bg="dark" variant="dark" expand="lg" className='Navbar'>
             <Navbar.Brand>
                 <img src={logo} className="nav-logo" alt="Nav bar logo" />
             </Navbar.Brand>
